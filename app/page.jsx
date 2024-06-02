@@ -47,7 +47,7 @@ export default function Home() {
                 <div className="">
                     <h1 className="text-8xl font-extrabold text-base-content -tracking-1 pb-10">Plan  your <span className="rotated-bg text-base-100">garden</span></h1>
                     <p className="text-base-content-secondary pb-6 text-2xl">The tool your small garden needs to become botanical ! <br/>
-                        Keep track of your vegetables and fruit to make them better than Walmart’s !</p>
+                        Keep track of your vegetables and fruit to make them better than Walmart&aposs !</p>
                     <div className="flex justify-center text-left text-2xl">
                         <ul className="text-base-content-secondary pb-10">
                             <li>🪴 clear dashboard</li>
@@ -63,7 +63,7 @@ export default function Home() {
         <div className="bg-primary h-[520px] flex items-center justify-center flex-col text-center">
             <h3 className="font-extrabold text-primary-content text-5xl m-6">If they can grow it, so can you !</h3>
             <p>
-                Your girlfriend's dad is bragging non-stop <br/>
+                Your girlfriend&aposs dad is bragging non-stop <br/>
                 about growing his own tomatoes in his small appartement ? <br/>
                 Do it better than him !
             </p>
