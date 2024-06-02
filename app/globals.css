@@ -31,3 +31,24 @@ body {
     text-wrap: balance;
   }
 }
+
+p {
+  font-size: 20px;
+}
+
+.rotated-bg {
+  position: relative;
+  display: inline-block;
+}
+.rotated-bg::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: -8px;
+  width: 105%;
+  height: 105%;
+  background-color: #66CC8A; /* Change this to match your bg-primary color */
+  transform: rotate(-4deg); /* Adjust the angle as needed */
+  transform-origin: left top;
+  z-index: -1;
+}
